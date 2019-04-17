@@ -1,0 +1,189 @@
+/* || General Setup */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12px;
+  background-color: #f7edd2;
+}
+
+body {
+  max-width:1200px;
+  width: 90%;
+  margin: 0 auto;
+  background-color:#7c7c7b;
+  color:#111;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* || Typography */
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #234;
+  text-shadow: .125rem .125rem .125rem black;
+  font-family: 'Shadows Into Light', cursive;
+  margin:0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-style:italic;
+  font-weight:400;
+}
+
+h3 {
+  font-size:1.25rem;
+  margin-top:0;
+  font-weight:400;
+  font-family:'Lato', sans-serif;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  text-align: right;
+  
+  
+}
+h1 {
+  background-color:#c09584;
+  padding:1rem 2rem;
+}
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+  background-color:#c09584;
+  border:2rem solid #7c7c7b;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 1.5rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #234;
+  font-family:'Roboto', sans-serif;
+}
+
+nav a:hover {
+  color:#7c7c7b;
+}
+
+/* || main layout */
+
+main {
+  
+    padding:0 2rem;
+}
+
+section {
+    margin-bottom:.5%;
+    overflow:auto;
+}
+
+aside {
+    width:50%;
+    max-width:640px;
+    margin-right:1%;
+    float:left;
+
+}
+
+/* || Media */
+
+figure img,
+figure video,
+figure iframe {
+  width: 100%;
+  max-width:640px;
+  margin:0;   
+}
+
+figure {
+  margin:0;
+    padding:.5%; 
+}
+
+figcaption {
+   font-size:.9rem; 
+}
+
+figcaption a {
+    
+    font-size:.9rem;
+    text-decoration:none;
+    color:#123;
+}
+
+figure video,
+figure iframe {
+    border:none;
+    background-color:#000;
+}
+
+.left { 
+  float:left;
+}
+
+/* || Written Content */
+
+article {
+  margin:0;
+}
+
+article>p {
+  margin-top:0;
+}
+
+/* || Footer Layout */
+
+footer {
+  background-color:#c09584;
+  clear:both;
+}
+
+footer p {
+    padding:3%;
+    font-size:.9rem;
+}
+        
+footer a {
+    font-size:.9rem;
+    text-decoration:none;
+    color:#123;
+}
+
+footer a:hover {
+  text-decoration:underline;
+  color:#7c7c7b;
+}
